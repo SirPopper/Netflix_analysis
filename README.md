@@ -1,3 +1,3 @@
 # Netflix_analysis
 
-First Netflix Analysis
+First insights into Netflix Dataset
