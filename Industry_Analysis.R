@@ -103,5 +103,10 @@ total %>% ggplot(aes(year, value_netflix, col=region)) +
   geom_line()
 
 
+#wide data format
+netflix_forecast <- total %>% select(-value_industry) %>% 
+  pivot_wider(names_from =region, values_from = value_netflix)
 
+netflix_forecast
+        
 
